@@ -6,6 +6,6 @@ output:
     toc_float: true
     theme: cerulean
 ---
-
+* A brief introductory landing page
 
 

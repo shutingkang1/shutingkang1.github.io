@@ -9,3 +9,109 @@ output:
 
 
 
+### EDUCATION 
+
+:::left
+**COLUMBIA UNIVERSITY, MAILMAN SCHOOL OF PUBLIC HEALTH**
+:::
+:::right
+Expected May 2024
+:::
+***M.S. in Biostatistics***, Data Science Track
+
+Relevant Coursework: Data Science, Probability, Biostatistics
+
+:::left
+
+ 
+  
+**THE OHIO STATE UNIVERSITY**
+:::
+
+:::right
+Aug 2018 - May 2022
+:::
+***B.S. in Biochemistry***, Minors: Statistics, Pharmaceutical Science, Public Health, GPA: 3.8/4.0
+
+Relevant Coursework: Statistical Modeling for Discovery, Bayesian Analysis and Statistical Decision Making
+
+### TECHNICAL SKILLS
+:::left
+**Programming Languages:**
+R, SAS, SQL, Python, Java, STATA, Scala
+:::
+**Tools:**
+MATLAB, Tableau, PySpark, Sklearn, PyTorch, NumPy, Pandas, TensorFlow, MongoDB, IntelliJ IDEA, NLTK, Dataiku
+
+### WORK EXPERIENCES
+
+
+:::left
+**NEW YORK PRESBYTERIAN HOSPITAL - COLUMBIA UNIVERSITY - Data Analyst**
+:::
+:::right
+**Oct 2022 – Present**
+:::
+
+- Conduct Survey Data
+
+
+:::left
+**ENCOMPASS STUDENT ORGANIZATION - OSU - Data Analyst Intern**
+:::
+:::right
+**Sep 2021 – May 2022**
+:::
+
+- Built Tableau dashboard to visualize different projects’ progress (e.g.funds received), saving 5 hours per week of manual
+reporting work.
+- Aggregated unstructured data from 20+ sources and built Random Forest Model to predict drug misuse risk based on 10
+characteristics(e.g. age, gender, race, living arrangement); targeted 10,000+ potentially at-risk individuals within two months.
+
+:::left
+**THE OHIO STATE UNIVERSITY - Laboratory Assistant**
+:::
+:::right
+**Jun 2020 – Aug 2021**
+:::
+
+- Performed P granules interaction network in Cytoscape from the PPI data to explore its properties and explain that P granule
+proteins formed a dense protein interaction network in JavaScript.
+- Visualized the relationship between 3’ shortening and 3’ addition of piRNA from experiment data with three Ph.D. Students
+and concluded that the activities of two regulators will suppress piRNA tailing in Python.
+
+### PROJECTS
+
+#### HEART ATTACK ANALYSIS AND PREDICTION
+`Python` `Machine Learning` `Data Visualization` `EDA` 
+
+- **Details**：
+- Performed EDA to investigate the features’ relationship and extracted 10 high correlation variables (e.g. maximum heart rate,
+resting blood pressure, number of major vessels) to develop a good-fitting and parsimonious Heart Attack Prediction Model
+to filter 23% useless features.
+- Compared the accuracy scores and AUC from four algorithms to narrow down on better performing techniques, and
+selected Random Forest Classifier model with 93% accuracy scores and 90.3% AUC in prediction.
+- Improved prediction accuracy score by 2.45% through cleaning and transforming raw data to limit the effect of abnormal
+extreme values in the prediction model.
+
+
+#### VACCINATION INVENTORY SYSTEM
+`Python` `NLP` `Numpy` `Pandas` `Seaborn` `Machine Learning` `Data Visualization` `EDA` 
+
+- **Details**：
+- Cleaned, visualized, and preprocessed the 2518 vaccination-related tweets dataset with NumPy, Pandas, and Seaborn to build
+an unbiased ML model and selected tweets text from 10+ variables as input, and verification status as output.
+- Performed NLP sentiment analysis on the text of the tweets by implying TensorFlow Keras with 0.9205 accurate scores in
+users’ vaccination status prediction for better preparation in further vaccination campaigns.
+
+
+#### EARTHQUAKE PREDICTION
+`Python` `MongoDB` `PySpark` `Machine Learning` `Data Pipline` 
+
+- **Details**：
+- Extracted, transformed, and loaded raw data into MongoDB with PySpark to create decentralized storage systems that can
+analyze real-time data to meet the growing storage and computing needs of earthquake data.
+- Predicted earthquakes in 2017 based on the dataset from 1965 to 2016 through developing a random forest model pipeline
+with 89% accuracy scores and 0.402 RMSE.
+- Presented earthquake information by creating geo-map plot with a prediction via Bokeh and a frequency bar chart in a
+dashboard to easily view and manipulate predicted earthquake locations and magnitudes on the map.
