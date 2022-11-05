@@ -1,0 +1,46 @@
+---
+title: "Plotly"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+data("instacart")
+
+```
+```{r}
+data("instacart")
+
+instacart = 
+  instacart %>% 
+  as_tibble(instacart)
+
+instacart %>% 
+  count(aisle) %>% 
+  arrange(desc(n))
+
+
+instacart %>% 
+  count(aisle) %>% 
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis")
+```
+```{r}
+instacart %>% 
+  count(aisle) %>% 
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "box", colors = "viridis")
+```
+```{r}
+instacart %>% 
+  count(aisle) %>% 
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "scatter", colors = "viridis")
+```

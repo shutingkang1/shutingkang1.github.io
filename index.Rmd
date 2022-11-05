@@ -1,11 +1,33 @@
 ---
-title: "My awesome website"
+title: "Hi There, I am Shuting Kang!"
 output: 
   html_document:
     toc: true
     toc_float: true
     theme: cerulean
 ---
-* A brief introductory landing page
 
+
+### This is Shuting's personal website
+
+
+
+
+Hi, my name is Shuting Kang and I am pursuing my Master's degree at Columbia University in the fall of 2022. I am actively looking for an internship position for the summer of 2023. I have experience in data management, analysis, and visualization in R, SAS, and Python. I am a public health enthusiast and also have a particular interest in building machine learning models for applications in different fields.
+
+***This website*** contained more information about my life and work experience.
+
+This is my cat zaizai, who likes to lie down like a person. She currently live in Ithaca!
+![](images/zaizai.jpg)
+This is my cat butter, who likes to take a photo. He currently live in Beijing!
+![](images/butter.jpg)
+
+
+
+
+
+### DashBoard section
+
+
+[Here's](DashBoard.html) a page with plotly plots
 
